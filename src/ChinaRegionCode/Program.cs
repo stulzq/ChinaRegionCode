@@ -26,7 +26,7 @@ namespace ChinaRegionCode
             var nodes = doc.DocumentNode.SelectNodes("//tr[@height='19']");
 
             var result = new List<AreaModel>();
-            //解析数据
+            //解析数据 xpath
             foreach (var node in nodes)
             {
                 var code = node.SelectSingleNode("td[2]").InnerText.Trim();
