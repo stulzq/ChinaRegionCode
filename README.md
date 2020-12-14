@@ -6,7 +6,7 @@
 
 ## 使用
 
-下载文件json数据文件，然后放到 web server 静态资源目录即可。
+[下载](https://github.com/stulzq/ChinaRegionCode/releases/latest) 文件json数据文件，然后放到 web server 静态资源目录即可。
 
 `region_antd.json` 树形结构，适配 Ant Design 的级联选择组件。
 
@@ -18,4 +18,4 @@
 
 爬取代码采用 C# 编写，你可以任意修改来实现你自己需求的数据格式。
 
-如民政部官方网站有但更新未能及时提供，可以提交 issues。
+如民政部官方网站有但更新未能及时提供，可以提交 [issues](https://github.com/stulzq/ChinaRegionCode/issues)。
